@@ -1,0 +1,88 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:structure_block",
+    "result": {
+        "id": "minecraft:shulker_box",
+        "components": {
+            "item_name": "洗牌机",
+            "container": [
+                {
+                    "item": {
+                        "id": "command_block",
+                        "count": 1,
+                        "components": {
+                            "item_name": "15张洗牌机",
+                            "minecraft:block_entity_data": {
+                                "Command": "function _:deal/block15",
+                                "id": "minecraft:command_block"
+                            },
+                            "lore": [
+                                "放置其上的容器的前15个槽洗成牌堆"
+                            ]
+                        }
+                    },
+                    "slot": 0
+                },
+                {
+                    "item": {
+                        "id": "command_block",
+                        "count": 1,
+                        "components": {
+                            "item_name": "15张弃牌区",
+                            "minecraft:block_entity_data": {
+                                "Command": "function _:deal/entity15",
+                                "id": "minecraft:command_block"
+                            },
+                            "lore": [
+                                "最近的牌垫中最后放进的15个槽洗成牌堆"
+                            ]
+                        }
+                    },
+                    "slot": 1
+                },
+                {
+                    "item": {
+                        "id": "command_block",
+                        "count": 1,
+                        "components": {
+                            "item_name": "扑克52张",
+                            "minecraft:block_entity_data": {
+                                "Command": "function _:deal/poker52",
+                                "id": "minecraft:command_block"
+                            }
+                        }
+                    },
+                    "slot": 2
+                },
+                {
+                    "item": {
+                        "id": "command_block",
+                        "count": 1,
+                        "components": {
+                            "item_name": "自由象棋地砖",
+                            "minecraft:block_entity_data": {
+                                "Command": "function _:deal/brick64",
+                                "id": "minecraft:command_block"
+                            }
+                        }
+                    },
+                    "slot": 3
+                },
+                {
+                    "item": {
+                        "id": "command_block",
+                        "count": 1,
+                        "components": {
+                            "item_name": "UNO",
+                            "minecraft:block_entity_data": {
+                                "Command": "function _:deal/uno",
+                                "id": "minecraft:command_block"
+                            }
+                        }
+                    },
+                    "slot": 4
+                }
+            ]
+        }
+    }
+}

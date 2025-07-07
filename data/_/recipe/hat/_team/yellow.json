@@ -1,0 +1,15 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:emerald",
+    "result": {
+        "id": "minecraft:emerald",
+        "components": {
+            "max_stack_size": 1,
+            "item_name": "黄队头盔",
+            "item_model": "minecraft:yellow_stained_glass",
+            "equippable": {
+                "slot": "head"
+            }
+        }
+    }
+}
