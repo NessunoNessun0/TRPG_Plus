@@ -1,0 +1,16 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:debug_stick",
+    "result": {
+        "id": "minecraft:debug_stick",
+        "components": {
+            "item_model": "wooden_shovel",
+            "item_name": "上升·下降地格",
+            "lore": [
+                "右键上升地格",
+                "左键下降地格",
+                "判定点也随之移动"
+            ]
+        }
+    }
+}

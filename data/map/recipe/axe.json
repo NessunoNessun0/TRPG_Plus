@@ -1,0 +1,16 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:debug_stick",
+    "result": {
+        "id": "minecraft:debug_stick",
+        "components": {
+            "item_model": "wooden_axe",
+            "item_name": "改变方块",
+            "lore": [
+                "置于副手",
+                "主手方块",
+                "右键使用"
+            ]
+        }
+    }
+}

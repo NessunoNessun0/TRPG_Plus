@@ -1,0 +1,20 @@
+[
+    {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type": "interaction",
+            "nbt": "{Tags:[map]}"
+        }
+    },
+    {
+        "condition": "inverted",
+        "term": {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{Tags:[occupied]}"
+            }
+        }
+    }
+]

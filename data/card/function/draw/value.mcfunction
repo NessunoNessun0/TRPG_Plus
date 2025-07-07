@@ -1,0 +1,1 @@
+$summon item_display ~ ~ ~ {Tags:[c1],item:{id:"suspicious_sand",count:1,components:{"block_entity_data":{item:$(item),id:"brushable_block"}}},transformation:[1f,0f,0f,0f,0f,0.015625f,0f,-0.0078125f,0f,0f,1f,0f,0f,0f,0f,2f]}

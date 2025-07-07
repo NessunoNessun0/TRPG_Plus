@@ -1,0 +1,1 @@
+$summon interaction ~$(dx) ~0.625 ~$(dz) {Tags:[map],height:0.0078125f,width:0.125f,Passengers:[{id:"block_display",Tags:[map],block_state:{Name:"$(name)"},transformation:[1f,0f,0f,-0.5f,0f,1f,0f,-1.0625f,0f,0f,1f,-0.5f,0f,0f,0f,8f]}]}

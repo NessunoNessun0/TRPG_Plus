@@ -1,0 +1,15 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:debug_stick",
+    "result": {
+        "id": "minecraft:debug_stick",
+        "components": {
+            "item_model": "wooden_pickaxe",
+            "item_name": "增加·移除地格",
+            "lore": [
+                "右键移除地格",
+                "左键增加地格"
+            ]
+        }
+    }
+}

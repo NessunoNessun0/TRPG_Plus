@@ -1,0 +1,17 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:debug_stick",
+    "result": {
+        "id": "minecraft:debug_stick",
+        "components": {
+            "item_model": "wooden_hoe",
+            "item_name": "上升·下降地形",
+            "lore": [
+                "别用，mojang神必代码发力了",
+                "右键上升地格",
+                "左键下降地格",
+                "判定点不随之移动"
+            ]
+        }
+    }
+}

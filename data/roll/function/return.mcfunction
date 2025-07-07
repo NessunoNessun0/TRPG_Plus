@@ -1,0 +1,1 @@
+$give @s bone_meal[max_stack_size=99,item_name='"$(name)"',custom_name='"$(input)"',enchantments={"roll:$(enchantment)":$(lvl)},enchantment_glint_override=false,food={can_always_eat:true,eat_seconds:0.05,nutrition:0,saturation:0}]

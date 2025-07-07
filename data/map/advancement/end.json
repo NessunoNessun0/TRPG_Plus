@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "_": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+            {
+              "condition": "reference",
+              "name": "map:unoccupied"
+            }
+          ],
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "map:start": true
+            },
+            "input": {
+              "sprint": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "map:character/end"
+  }
+}
