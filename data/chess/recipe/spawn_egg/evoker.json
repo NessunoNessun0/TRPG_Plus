@@ -1,0 +1,12 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:clay_ball",
+    "result": {
+        "id": "minecraft:clay_ball",
+        "components": {
+            "max_stack_size": 1,
+            "item_name": "唤魔者",
+            "item_model": "evoker_spawn_egg"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:clay_ball",
+    "result": {
+        "id": "minecraft:clay_ball",
+        "components": {
+            "max_stack_size": 1,
+            "item_name": "热带鱼",
+            "item_model": "tropical_fish_spawn_egg"
+        }
+    }
+}

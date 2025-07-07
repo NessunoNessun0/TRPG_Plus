@@ -1,0 +1,12 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:clay_ball",
+    "result": {
+        "id": "minecraft:clay_ball",
+        "components": {
+            "max_stack_size": 1,
+            "item_name": "凋灵骷髅",
+            "item_model": "wither_skeleton_spawn_egg"
+        }
+    }
+}

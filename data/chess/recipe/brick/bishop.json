@@ -1,0 +1,16 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:brick",
+    "result": {
+        "id": "minecraft:brick",
+        "components": {
+            "item_name": "主教",
+            "item_model": "brick:gray",
+            "custom_model_data": {
+                "strings": [
+                    "bishop"
+                ]
+            }
+        }
+    }
+}
