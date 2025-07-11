@@ -1,1 +1,0 @@
-$tellraw @a {"translate": "[%s]%s=%s","with": [{"selector":"@s"},{"text": "$(input)","color": "light_purple","clickEvent": {"action": "run_command","value": "/function roll:return {input:'$(input)',name:'$(name)',enchantment:$(enchantment),lvl:$(lvl),}"}},{"score":{"objective":"trpg.result","name":"@s"},"color":"yellow"}]}
