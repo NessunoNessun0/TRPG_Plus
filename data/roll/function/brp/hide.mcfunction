@@ -1,0 +1,2 @@
+data modify storage roll:data brp set value {selector:"s",name:"技能|值",lore:"[\\'技能检定\\',\\'暗中掷骰\\']",roll:"{\\'type\\':\\'brp\\',\\'hide\\':true}"}
+tellraw @a {"translate": "[%s]正在暗骰","with": [{"selector":"@s"}]}

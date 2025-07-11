@@ -1,0 +1,1 @@
+$give @s bone_meal[max_stack_size=99,item_name="$(name)",custom_name="$(input)",lore=$(lore),custom_data={"roll":$(roll)},consumable={animation:"none",has_consume_particles:false,consume_seconds:0}]

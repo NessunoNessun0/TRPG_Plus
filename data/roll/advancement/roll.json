@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "bone_meal"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "list:roll"
+    }
+}

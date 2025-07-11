@@ -1,0 +1,2 @@
+data modify storage roll:data free set value {selector:"s",name:"nDm+c",lore:"[\\'自由掷骰\\',\\'暗中掷骰\\']",roll:"{\\'type\\':\\'free\\',\\'hide\\':true}"}
+tellraw @a {"translate": "[%s]正在暗骰","with": [{"selector":"@s"}]}

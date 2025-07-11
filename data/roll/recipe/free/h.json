@@ -1,0 +1,26 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:bone_meal",
+    "result": {
+        "id": "minecraft:bone_meal",
+        "components": {
+            "max_stack_size": 99,
+            "item_name": "nDm+c",
+            "lore": [
+                "自由掷骰",
+                "暗中掷骰"
+            ],
+            "custom_data": {
+                "roll": {
+                    "type": "free",
+                    "hide": true
+                }
+            },
+            "consumable": {
+                "animation": "none",
+                "has_consume_particles": false,
+                "consume_seconds": 0
+            }
+        }
+    }
+}

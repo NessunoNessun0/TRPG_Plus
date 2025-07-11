@@ -1,0 +1,1 @@
+$scoreboard players set @s trpg.dice_count $(n)
