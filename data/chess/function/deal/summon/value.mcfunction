@@ -1,0 +1,1 @@
+$summon item_display ~ ~ ~ {Tags:[d1],item:$(item)}

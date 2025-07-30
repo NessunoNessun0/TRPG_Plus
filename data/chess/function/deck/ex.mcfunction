@@ -1,0 +1,1 @@
+execute on passengers if entity @s[tag=deck] at @p[tag=user] run function chess:get/draw

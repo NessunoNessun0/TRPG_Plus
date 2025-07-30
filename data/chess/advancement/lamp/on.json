@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[lamp]}",
+                    "passenger": {
+                        "nbt": "{block_state:{Properties:{lit:'false'}}}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "chess:lamp/on"
+    }
+}
