@@ -1,0 +1,13 @@
+{
+    "type": "crafting_transmute",
+    "input": "pink_banner",
+    "material": "emerald",
+    "result": {
+        "id": "pink_banner",
+        "components": {
+            "equippable": {
+                "slot": "head"
+            }
+        }
+    }
+}

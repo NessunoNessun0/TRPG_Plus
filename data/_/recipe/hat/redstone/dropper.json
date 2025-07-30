@@ -1,0 +1,15 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:emerald",
+    "result": {
+        "id": "minecraft:emerald",
+        "components": {
+            "max_stack_size": 1,
+            "item_name": "投掷器",
+            "item_model": "minecraft:dropper",
+            "equippable": {
+                "slot": "head"
+            }
+        }
+    }
+}

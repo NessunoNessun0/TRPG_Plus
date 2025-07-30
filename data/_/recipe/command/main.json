@@ -1,0 +1,48 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:structure_block",
+    "result": {
+        "id": "minecraft:shulker_box",
+        "components": {
+            "item_name": "命令方块",
+            "container": [
+                {
+                    "item": {
+                        "id": "command_block",
+                        "count": 1,
+                        "components": {
+                            "item_name": "最近实体变棋子",
+                            "minecraft:block_entity_data": {
+                                "Command": "execute as @n[type=!player] if entity @n[type=minecraft:interaction,tag=map,tag=!chared] run function _:char",
+                                "id": "minecraft:command_block"
+                            },
+                            "lore": [
+                                "最近的任何实体变成棋子",
+                                "移动到最近的未被占据的地格"
+                            ]
+                        }
+                    },
+                    "slot": 0
+                },
+                {
+                    "item": {
+                        "id": "command_block",
+                        "count": 1,
+                        "components": {
+                            "item_name": "下方放置椅子",
+                            "minecraft:block_entity_data": {
+                                "Command": "execute positioned ~ ~-1 ~ run function _:chair",
+                                "auto": true,
+                                "id": "minecraft:command_block"
+                            },
+                            "lore": [
+                                "放置于半砖或者楼梯方块的上方"
+                            ]
+                        }
+                    },
+                    "slot": 1
+                }
+            ]
+        }
+    }
+}
