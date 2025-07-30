@@ -1,0 +1,19 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:brick",
+    "result": {
+        "id": "minecraft:brick",
+        "components": {
+            "item_name": "城堡",
+            "item_model": "chess:unbound",
+            "custom_data": {
+                "chess": "bric"
+            },
+            "custom_model_data": {
+                "strings": [
+                    "rook"
+                ]
+            }
+        }
+    }
+}
