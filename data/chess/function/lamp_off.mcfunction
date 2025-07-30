@@ -1,2 +1,0 @@
-advancement revoke @s only chess:lamp_off
-execute as @e[type=interaction] if data entity @s interaction.player at @s on passengers if entity @s[tag=lamp] run data modify entity @s block_state.Properties.lit set value "false"
