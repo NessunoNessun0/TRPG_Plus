@@ -1,1 +1,0 @@
-summon interaction ~ ~ ~ {Tags:[chair],height:0.0625f}
