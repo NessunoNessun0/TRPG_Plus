@@ -1,0 +1,15 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:clay_ball",
+    "result": {
+        "id": "minecraft:clay_ball",
+        "components": {
+            "max_stack_size": 1,
+            "custom_data": {
+                "chess": "card"
+            },
+            "item_name": "远古守卫者",
+            "item_model": "elder_guardian_spawn_egg"
+        }
+    }
+}

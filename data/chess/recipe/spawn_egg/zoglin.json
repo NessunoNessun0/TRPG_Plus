@@ -1,0 +1,15 @@
+{
+    "type": "stonecutting",
+    "ingredient": "minecraft:clay_ball",
+    "result": {
+        "id": "minecraft:clay_ball",
+        "components": {
+            "max_stack_size": 1,
+            "custom_data": {
+                "chess": "card"
+            },
+            "item_name": "僵尸疣猪兽",
+            "item_model": "zoglin_spawn_egg"
+        }
+    }
+}
